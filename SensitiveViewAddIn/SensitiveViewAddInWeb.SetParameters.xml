@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <setParameter name="IIS Web Application Name" value="SensitiveViewApps123" />
+  <setParameter name="ClientId" value="a6523b0b-13af-45ee-a77c-d7235f2354dc" />
+  <setParameter name="ClientSecret" value="bLDxbCwjeDIi1OaMhtzJAePq1TU9CFg6VhIdFj5BPmU=" />
+</parameters>

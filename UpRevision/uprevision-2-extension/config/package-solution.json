@@ -1,0 +1,25 @@
+{
+  "$schema": "https://dev.office.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "uprevision-2-extension-client-side-solution",
+    "id": "db39a4db-21d7-45af-8500-fc35ba2479f7",
+    "version": "1.0.0.1",
+    "includeClientSideAssets": true,
+    "features": [
+      {
+        "title": "Application Extension - Deployment of custom action.",
+        "description": "Deploys a custom action with ClientSideComponentId association",
+        "id": "4db6f127-c1a4-4938-bb13-22c5a509a4ae",
+        "version": "1.0.0.0",
+        "assets": {
+          "elementManifests": [
+            "elements.xml"
+          ]
+        }
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/uprevision-2-extension.sppkg"
+  }
+}

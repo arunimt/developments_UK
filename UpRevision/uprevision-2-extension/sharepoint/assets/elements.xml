@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+    <CustomAction
+        Title="Uprevision2"
+        RegistrationId="101"
+        RegistrationType="List"
+        Location="ClientSideExtension.ListViewCommandSet.CommandBar"
+        ClientSideComponentId="2e0c0d34-ee2a-4769-8956-6bf839a86d69"
+        ClientSideComponentProperties="">
+    </CustomAction>
+</Elements>

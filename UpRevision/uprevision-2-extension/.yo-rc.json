@@ -1,0 +1,8 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "version": "1.4.1",
+    "libraryName": "uprevision-2-extension",
+    "libraryId": "db39a4db-21d7-45af-8500-fc35ba2479f7",
+    "environment": "spo"
+  }
+}

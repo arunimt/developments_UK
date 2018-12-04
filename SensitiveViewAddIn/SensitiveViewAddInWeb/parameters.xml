@@ -1,0 +1,12 @@
+﻿<parameters>
+  <parameter name="IIS Web Application Name" defaultValue="SensitiveViewApps123" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Users\\arukum03\\source\\repos\\SensitiveViewAddIn\\SensitiveViewAddInWeb\\obj\\Release\\Package\\PackageTmp$" />
+    <parameterEntry kind="ProviderPath" scope="setAcl" match="^C:\\Users\\arukum03\\source\\repos\\SensitiveViewAddIn\\SensitiveViewAddInWeb\\obj\\Release\\Package\\PackageTmp$" />
+  </parameter>
+  <parameter name="ClientId" description="Value for ClientId here." defaultValue="a6523b0b-13af-45ee-a77c-d7235f2354dc" tags="applicationSettings">
+    <parameterEntry kind="XmlFile" scope="web.config$" match="/configuration/appSettings/add[@key='ClientId']/@value" />
+  </parameter>
+  <parameter name="ClientSecret" description="Value for ClientSecret here." defaultValue="bLDxbCwjeDIi1OaMhtzJAePq1TU9CFg6VhIdFj5BPmU=" tags="applicationSettings">
+    <parameterEntry kind="XmlFile" scope="web.config$" match="/configuration/appSettings/add[@key='ClientSecret']/@value" />
+  </parameter>
+</parameters>

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package dslVersion="1.0.0.0" 
+        Id="5a04e7ef-812d-42a4-9c67-69fc2581fe8e" 
+        solutionId="5a04e7ef-812d-42a4-9c67-69fc2581fe8e" 
+        xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel" 
+        name="SensitiveViewApp"
+        sharePointProductVersion="16.0">
+  <features>
+        <featureReference itemId="29f2d7e5-6f8e-4431-8005-a42c5a104ac3" />
+  </features>
+</package>
